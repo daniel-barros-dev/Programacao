@@ -8,7 +8,7 @@ try:
     print("É um valor numérico")
     
     quadrado = num ** 2
-    print("O quadrado é", quadrado)
+    print("O quadrado de", num,"é", quadrado)
 
 except:
     print("Não é um valor numérico")
