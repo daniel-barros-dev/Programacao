@@ -3,13 +3,11 @@
 valor = input("Digite um valor: ")
 print("O tipo do valor é", type(valor))
 
-try:
-    num = float(valor)
-    print("É um valor numérico")
+if valor.isnumeric():
+    num = int(valor)
+    print("O", num," é um valor numérico e o seu quadrado é",num**2)
+    print("O novo tipo agora é", type(num))
     
-    quadrado = num ** 2
-    print("O quadrado de", num,"é", quadrado)
-
-except:
+else:
     print("Não é um valor numérico")
 
