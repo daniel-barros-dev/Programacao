@@ -1,2 +1,2 @@
-# Programacao
-Primeiras atividades no P1 de ciencia da computação.
+# Programação
+Primeiras atividades no P1 de ciência da computação.
